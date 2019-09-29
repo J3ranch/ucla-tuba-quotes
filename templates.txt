@@ -1,0 +1,57 @@
+single quote template
+-----------------------------------
+<div class="quote-pfp">
+		<div class="tuba">
+			<img class="tuba-pic" src="https://firebasestorage.googleapis.com/v0/b/ucla-tuba-quotes.appspot.com/o/tuba.png?alt=media&token=441b540a-66aa-40a6-b0a6-64194bf00755">
+		</div>
+	</div>
+	<div class="quote-info">
+		<div class="quote-header">
+			<h2 class="quotee">
+				${data.quotee}
+			</h2>
+			<h3 class="quote-said">
+				said
+			</h3>
+		</div>
+		<div class="quote-text">
+			<div class="quote-mark-left">
+				<div class="quote-mark-single">
+					<div class="quote-mark-body-left">
+					</div>
+					<div class="quote-mark-tail-left">
+					</div>
+				</div>
+				<div class="quote-mark-single">
+					<div class="quote-mark-body-left">
+					</div>
+					<div class="quote-mark-tail-left">
+					</div>
+				</div>
+			</div>
+
+		<p class="quote">
+			${data.quote.replace("\n", "<br/>")}
+		</p>
+
+			<div class="quote-mark-right">
+				<div class="quote-mark-single">
+					<div class="quote-mark-body-right">
+					</div>
+					<div class="quote-mark-tail-right">
+					</div>
+				</div>
+				<div class="quote-mark-single">
+					<div class="quote-mark-body-right">
+					</div>
+					<div class="quote-mark-tail-right">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-flag">
+			<div class="flag-button" onclick="flagQuote(this);">
+				FLAG AS SPAM
+			</div>
+		</div>
+	</div>

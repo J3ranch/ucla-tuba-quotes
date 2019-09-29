@@ -1,0 +1,121 @@
+.tuba-icon {
+	height: auto;
+	width: 20vw;
+	/*border: solid 5px #FFD100;*/
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tuba-pic {
+	width: 100%;
+	height: auto;
+}
+
+/*
+.tuba-icon:after {
+	content: "";
+	display: block;
+	padding-bottom: 140%;
+}*/
+
+.tuba-body {
+	position: absolute;
+	bottom: 0%;
+	width: 13vw;
+	height: 13vw;
+	border: 3vw #FFD100 solid;
+	border-radius: 50%;
+}
+
+.tuba-neck-a {
+	position: absolute;
+	top: 25%;
+	left: 23%;
+	width: 0vw;
+	height: 5vw;
+	border: 2.5vw #FFD100 solid;
+	border-radius: 50%;
+	background: #FFD100;
+}
+
+.tuba-neck-b {
+	position: absolute;
+	top: 15%;
+	left: 37%;
+	width: 0vw;
+	height: 5vw;
+	border: 2.5vw #FFD100 solid;
+	border-radius: 50%;
+	transform: rotate(90deg);
+	background: #FFD100;
+}
+
+.tuba-neck-c {
+	position: absolute;
+	width: 50%;
+	height: 20%;
+	border: 2.5vw solid transparent;
+	border-left: 2.5vw #FFD100 solid;
+	top: 46%;
+	left: 9%;
+	transform: rotate(33deg);
+}
+
+.tuba-bell {
+	position: absolute;
+	top: 2%;
+	left: 48%;
+	width: 0vw;
+	height: 10vw;
+	border: 3.5vw #FFD100 solid;
+	border-radius: 50%;
+	transform: rotate(-25deg);
+	background: #FFD100;
+}
+
+.tuba-pipes-a {
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  width: 1vw;
+  height: 10vw;
+  border: 1vw #FFD100 solid;
+  border-radius: 42%;
+  transform: rotate(49deg);
+}
+
+.tuba-pipes-b {
+  position: absolute;
+  top: 71%;
+  left: 52%;
+  width: 1vw;
+  height: 6vw;
+  border: .75vw #FFD100 solid;
+  border-radius: 42%;
+  transform: rotate(49deg);
+}
+
+.tuba-pipes-c {
+  position: absolute;
+  top: 53%;
+  left: 44%;
+  width: .5vw;
+  height: 13vw;
+  border: .75vw #FFD100 solid;
+  border-radius: 42%;
+  transform: rotate(49deg);
+}
+
+.tuba-pipes-d {
+  position: absolute;
+  top: 66%;
+  left: 52%;
+  width: .5vw;
+  height: 5vw;
+  border: .5vw #FFD100 solid;
+  border-radius: 42%;
+  transform: rotate(-15deg);
+  background: #FFD100;
+}

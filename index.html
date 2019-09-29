@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="quote-mark.css">
+<link rel="stylesheet" href="tuba.css">
+<head>
+	<title>Shit Tubas Say</title>
+	<script src="https://kit.fontawesome.com/408fba03ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="site-header">
+	<div class="tuba-icon">
+		<img class="tuba-pic" src="https://firebasestorage.googleapis.com/v0/b/ucla-tuba-quotes.appspot.com/o/tuba.png?alt=media&token=441b540a-66aa-40a6-b0a6-64194bf00755">
+	</div>
+	<div class="container-header">
+		<header class="header">Shit</header>
+		<header class="header">Tubas</header>
+		<header class="header">Say</header>
+		<header class="header">@ UCLA</header>
+	</div>
+	</div>
+
+	<div id="container-quote-list"></div>
+
+	<div class="container-buttons">
+		<div id="add" onclick="window.location.href = './add.html'">+</div>
+	</div>
+
+	<p id="credits">Willis Lam 2019</p>
+
+
+
+
+
+
+
+
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+	<!-- Added firestore -->
+	<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-firestore.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyDhDm5Lc0lzJVWQiaGzi-dbce5Nkmyr6FU",
+	    authDomain: "ucla-tuba-quotes.firebaseapp.com",
+	    databaseURL: "https://ucla-tuba-quotes.firebaseio.com",
+	    projectId: "ucla-tuba-quotes",
+	    storageBucket: "",
+	    messagingSenderId: "158828460370",
+	    appId: "1:158828460370:web:004e08e870544f29ed228b",
+	    measurementId: "G-J0NJV0CW5G"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	  firebase.analytics();
+	</script>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

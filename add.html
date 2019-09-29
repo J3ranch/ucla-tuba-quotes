@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="add.css">
+<head>
+	<title>Shit Tubas Say</title>
+	<script src="https://kit.fontawesome.com/408fba03ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header id="add-header"> Add a quote! </header>
+	<form onSubmit="addQuote();" id="add-form">
+			<p class="form-question"> Who said it? </p> 
+			<input type="text" id="form-quotee" required autocomplete="off">
+			<div class="padding"></div>
+			<p class="form-question"> What did they say? </p> 
+			<textarea id="form-quote" rows="5" cols="30" required autocomplete="off"></textarea>
+			<div class="padding"></div>
+			<input type="submit" class="form-button">
+			<button onclick="window.location.href = './index.html'" class="form-button">Cancel</button>
+	</form>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+	<!-- Added firestore -->
+	<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-firestore.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyDhDm5Lc0lzJVWQiaGzi-dbce5Nkmyr6FU",
+	    authDomain: "ucla-tuba-quotes.firebaseapp.com",
+	    databaseURL: "https://ucla-tuba-quotes.firebaseio.com",
+	    projectId: "ucla-tuba-quotes",
+	    storageBucket: "",
+	    messagingSenderId: "158828460370",
+	    appId: "1:158828460370:web:004e08e870544f29ed228b",
+	    measurementId: "G-J0NJV0CW5G"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	  firebase.analytics();
+	</script>
+</body>
+	<script src="add.js"></script>
+</html>

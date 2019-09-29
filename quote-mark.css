@@ -1,0 +1,67 @@
+.quote-mark-left {
+	width: 6.5vw;
+	height: auto;
+	display: flex;
+	flex-flow: row;
+	align-items: flex-start;
+
+	margin: 5px;
+}
+
+.quote-mark-right {
+	width: 6.5vw;
+	height: auto;
+	display: flex;
+	flex-flow: row;
+	align-items: flex-end;
+
+	margin: 5px;
+}
+
+.quote-mark-single {
+	width: 3vw;
+	height: 4vw;
+	margin: 1px;
+
+	position: relative;
+}
+
+.quote-mark-body-left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 0px;
+	width: 0px;
+	border: solid 1.5vw #d6d6d6;
+	border-radius: 50%;
+}
+
+.quote-mark-tail-left {
+	position: absolute;
+	top: 1.5vw;
+	left: 0px;
+	height: 0px;
+	width: 0px;
+	border: solid 1.5vw transparent;
+	border-left-color: #d6d6d6;
+}
+
+.quote-mark-body-right {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	height: 0px;
+	width: 0px;
+	border: solid 1.5vw #d6d6d6;
+	border-radius: 50%;
+}
+
+.quote-mark-tail-right {
+	position: absolute;
+	bottom: 1.5vw;
+	right: 0px;
+	height: 0px;
+	width: 0px;
+	border: solid 1.5vw transparent;
+	border-right-color: #d6d6d6;
+}
