@@ -108,9 +108,15 @@ function createQuote(doc) {
 				</div>
 			</div>
 		</div>
-		<div class="container-flag">
-			<!--<i class="fas fa-flag flag-button" onclick="flagQuote(this)"></i>-->
-			<div class="flag-button" onclick="flagQuote(this)">FLAG</div>
+		<div class="container-actions">
+			<div class="flag-button" onclick="flagQuote(this)">
+			    <i class="fas fa-flag"></i>
+				FLAG
+			</div>
+			<div class="edit-button" onclick="window.location.href = './edit.html?id=${doc.id}'">
+				<i class="fas fa-pencil-alt"></i>
+				EDIT
+			</div>
 		</div>
 	</div>
 	`;
